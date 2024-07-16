@@ -1,0 +1,49 @@
+html,body {font-family: "Noto Sans KR", sans-serif;}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0; left: 0; height: 60px;
+    width: 100%; padding: 0px 40px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+header >  * {width: calc(100% / 3);}
+header .left {}
+header .left a {font-size: 0.875rem; font-weight: 700;}
+
+header .left a,
+header .right a {margin-right: 10px;}
+header .left a:last-child,
+header .right a:last-child {margin-right: 0px;}
+
+header h1 {text-align: center;}
+header h1 a {}
+header h1 a img {width: 290px;}
+header .right {text-align: right;}
+header .right a {font-size: 0.875rem; font-weight: 700;}
+
+main {padding: 60px 0 200px;}
+main .bg {width: calc(100% - 160px); margin: 0 auto;}
+main .bg1 {width: 100%;}
+main .bg1 .container {background-image: url(../images/visual.gif);
+    background-repeat: no-repeat;
+    height: 500px; width: 100%;
+    background-size: cover;
+    background-position: center top;
+}
+main .bg2 {}
+main .bg2 {}
+main .bg2 h2 {
+    font-size: 2rem; font-weight: 700; text-align: center;
+    padding: 40px 0;
+}
+main .bg2 .product_list {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .bg2 .product_list li {
+    width: calc(100%/ 3);
+}
+main .bg2 .product_list li a {}
+main .bg2 .product_list li a img {width: 100%;}

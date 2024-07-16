@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) {/* 태블릿 */
+    header h1 a img {width: 100%;}
+    header .left a,
+    header .right a {display: none;}
+    main .bg {width: calc(100% - 32px);}
+    main .bg1 {width: 100%;}
+    main .bg2 h2 {font-size: 1.5rem; padding: 30px 0;}
+}
+@media screen and (max-width: 870px) {/* 모바일 */
+    main .bg1 .container {height: 400px;}
+}
+@media screen and (max-width: 760px) {/* 모바일 */
+    main .bg1 .container {height: 340px;}
+}
+@media screen and (max-width: 570px) {/* 모바일 */
+    main .bg2 h2 {font-size: 1.125rem;}
+    header >  * {width: 100%;}
+    header h1 a img {width: 160px;}
+}
